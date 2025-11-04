@@ -26,7 +26,7 @@ func (s Student2) Info() {
 
 func main() {
 	// 5. Создаём объект и заполняем данные
-	student := Student2{
+	student1 := Student2{
 		name: "Бекзат",
 		age:  20,
 		address: Address{
@@ -36,5 +36,5 @@ func main() {
 	}
 
 	// 6. Вызываем метод
-	student.Info()
+	student1.Info()
 }
